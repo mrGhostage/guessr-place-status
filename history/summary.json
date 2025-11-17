@@ -5,19 +5,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/guessr.place.ico",
     "slug": "guessr-front",
     "status": "up",
-    "uptime": "86.68%",
-    "uptimeDay": "86.68%",
-    "uptimeWeek": "86.68%",
-    "uptimeMonth": "86.68%",
-    "uptimeYear": "86.68%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 1462,
     "timeDay": 1462,
     "timeWeek": 1462,
     "timeMonth": 1462,
     "timeYear": 1462,
-    "dailyMinutesDown": {
-      "2025-11-17": 1
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Guessr API (prod)",
@@ -25,19 +23,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.guessr.place.ico",
     "slug": "guessr-api-prod",
     "status": "up",
-    "uptime": "86.38%",
-    "uptimeDay": "86.38%",
-    "uptimeWeek": "86.38%",
-    "uptimeMonth": "86.38%",
-    "uptimeYear": "86.38%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 723,
     "timeDay": 723,
     "timeWeek": 723,
     "timeMonth": 723,
     "timeYear": 723,
-    "dailyMinutesDown": {
-      "2025-11-17": 1
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Guessr Front (test)",

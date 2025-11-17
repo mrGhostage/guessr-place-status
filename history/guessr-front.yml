@@ -1,7 +1,7 @@
-url: https://guessr.place/Healthz
-status: up
-code: 200
-responseTime: 1439
-lastUpdated: 2025-11-17T15:24:29.120Z
+url: https://guessr.place/Healthz111
+status: down
+code: 404
+responseTime: 1607
+lastUpdated: 2025-11-17T15:30:04.905Z
 startTime: 2025-11-17T15:24:27.675Z
 generator: Upptime <https://github.com/upptime/upptime>

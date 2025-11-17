@@ -5,10 +5,10 @@ repo: guessr-place-status # имя репозитория со статусом
 # Список сайтов, которые мониторим
 sites:
   - name: Guessr Front
-    url: https://guessr.place/Healthz111
+    url: https://guessr.place/Healthz
 
   - name: Guessr API (prod)
-    url: https://api.guessr.place/Admin/healthz222
+    url: https://api.guessr.place/Admin/healthz
 
   - name: Guessr Front (test)
     url: https://test.guessr.place/Healthz

@@ -42,19 +42,19 @@
     "url": "https://test.guessr.place/Healthz",
     "icon": "https://icons.duckduckgo.com/ip3/test.guessr.place.ico",
     "slug": "guessr-front-test",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 1315,
-    "timeDay": 1011,
-    "timeWeek": 1295,
-    "timeMonth": 1351,
-    "timeYear": 1315,
+    "status": "up",
+    "uptime": "99.97%",
+    "uptimeDay": "98.96%",
+    "uptimeWeek": "99.85%",
+    "uptimeMonth": "99.97%",
+    "uptimeYear": "99.97%",
+    "time": 1301,
+    "timeDay": 892,
+    "timeWeek": 1230,
+    "timeMonth": 1332,
+    "timeYear": 1301,
     "dailyMinutesDown": {
-      "2025-12-22": 0
+      "2025-12-22": 15
     }
   },
   {

@@ -1,7 +1,7 @@
 url: https://test-api.guessr.place/Admin/healthz
 status: up
 code: 200
-responseTime: 724
-lastUpdated: 2026-05-02T23:35:37.132Z
+responseTime: 416
+lastUpdated: 2026-05-03T23:36:40.464Z
 startTime: 2025-11-17T15:24:32.708Z
 generator: Upptime <https://github.com/upptime/upptime>

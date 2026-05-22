@@ -45,9 +45,9 @@
     "url": "https://test.guessr.place/Healthz",
     "icon": "https://icons.duckduckgo.com/ip3/test.guessr.place.ico",
     "slug": "guessr-front-test",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
@@ -57,6 +57,7 @@
     "timeMonth": 1472,
     "timeYear": 1306,
     "dailyMinutesDown": {
+      "2026-05-22": 0,
       "2026-03-19": 41
     }
   },
@@ -65,9 +66,9 @@
     "url": "https://test-api.guessr.place/Admin/healthz",
     "icon": "https://icons.duckduckgo.com/ip3/test-api.guessr.place.ico",
     "slug": "guessr-api-test",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -76,6 +77,8 @@
     "timeWeek": 1496,
     "timeMonth": 810,
     "timeYear": 703,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-22": 0
+    }
   }
 ]

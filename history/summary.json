@@ -45,9 +45,9 @@
     "url": "https://test.guessr.place/Healthz",
     "icon": "https://icons.duckduckgo.com/ip3/test.guessr.place.ico",
     "slug": "guessr-front-test",
-    "status": "up",
+    "status": "down",
     "uptime": "99.93%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.60%",
     "uptimeYear": "99.93%",
@@ -57,6 +57,7 @@
     "timeMonth": 1714,
     "timeYear": 1357,
     "dailyMinutesDown": {
+      "2026-06-13": 0,
       "2026-05-22": 174,
       "2026-03-19": 41
     }

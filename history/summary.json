@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.96%",
-    "time": 1430,
-    "timeDay": 946,
-    "timeWeek": 1269,
-    "timeMonth": 1450,
-    "timeYear": 1430,
+    "time": 1428,
+    "timeDay": 837,
+    "timeWeek": 837,
+    "timeMonth": 1230,
+    "timeYear": 1428,
     "dailyMinutesDown": {
       "2025-12-06": 133,
       "2026-03-19": 42
@@ -22,7 +22,7 @@
   },
   {
     "name": "Guessr API (prod)",
-    "url": "https://api.guessr.place/Admin/healthz",
+    "url": "https://api.guessr.place/admin/healthz",
     "icon": "https://icons.duckduckgo.com/ip3/api.guessr.place.ico",
     "slug": "guessr-api-prod",
     "status": "up",
@@ -31,55 +31,13 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
-    "time": 861,
-    "timeDay": 528,
-    "timeWeek": 622,
-    "timeMonth": 890,
-    "timeYear": 861,
+    "time": 860,
+    "timeDay": 699,
+    "timeWeek": 699,
+    "timeMonth": 596,
+    "timeYear": 860,
     "dailyMinutesDown": {
       "2026-03-19": 42
-    }
-  },
-  {
-    "name": "Guessr Front (test)",
-    "url": "https://test.guessr.place/Healthz",
-    "icon": "https://icons.duckduckgo.com/ip3/test.guessr.place.ico",
-    "slug": "guessr-front-test",
-    "status": "up",
-    "uptime": "99.90%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "99.90%",
-    "time": 1432,
-    "timeDay": 1171,
-    "timeWeek": 1250,
-    "timeMonth": 1466,
-    "timeYear": 1432,
-    "dailyMinutesDown": {
-      "2026-03-19": 41,
-      "2026-05-22": 174,
-      "2026-06-13": 209
-    }
-  },
-  {
-    "name": "Guessr API (test)",
-    "url": "https://test-api.guessr.place/Admin/healthz",
-    "icon": "https://icons.duckduckgo.com/ip3/test-api.guessr.place.ico",
-    "slug": "guessr-api-test",
-    "status": "up",
-    "uptime": "99.96%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "99.96%",
-    "time": 783,
-    "timeDay": 584,
-    "timeWeek": 618,
-    "timeMonth": 734,
-    "timeYear": 783,
-    "dailyMinutesDown": {
-      "2026-05-22": 174
     }
   }
 ]

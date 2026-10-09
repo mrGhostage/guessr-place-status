@@ -6,7 +6,19 @@ on:
 
 jobs:
   telegram:
-    if: contains(github.event.issue.title, 'is down')
+    if: |
+      github.event.issue.user.login == 'mrGhostage' &&
+      contains(github.event.issue.labels.*.name, 'status') &&
+      (
+        (
+          github.event.issue.title == '🛑 Guessr Front is down' &&
+          contains(github.event.issue.labels.*.name, 'guessr-front')
+        ) ||
+        (
+          github.event.issue.title == '🛑 Guessr API (prod) is down' &&
+          contains(github.event.issue.labels.*.name, 'guessr-api-prod')
+        )
+      )
     runs-on: ubuntu-latest
 
     steps:

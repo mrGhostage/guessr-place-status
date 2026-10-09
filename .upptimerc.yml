@@ -1,28 +1,17 @@
-# Кто владелец репозитория
-owner: mrGhostage        # твой GitHub username
-repo: guessr-place-status # имя репозитория со статусом
+owner: mrGhostage
+repo: guessr-place-status
 
-# Список сайтов, которые мониторим
 sites:
   - name: Guessr Front
     url: https://guessr.place/Healthz
 
   - name: Guessr API (prod)
-    url: https://api.guessr.place/Admin/healthz
+    url: https://api.guessr.place/admin/healthz
 
-  - name: Guessr Front (test)
-    url: https://test.guessr.place/Healthz
-
-  - name: Guessr API (test)
-    url: https://test-api.guessr.place/Admin/healthz
-
-# Кому назначать инциденты в Issues (опционально)
 assignees:
   - mrGhostage
 
-# Настройки статус-сайта
 status-website:
-  # cname: status.guessr.place   # если будешь делать отдельный домен, иначе можно удалить
-  baseUrl: /guessr-place-status  # если без кастомного домена, раскомментировать и указать имя репо
+  baseUrl: /guessr-place-status
   name: Guessr.Place Status
-  theme: night    # тема оформления (есть несколько вариантов)
+  theme: night

@@ -3,22 +3,28 @@ name: Telegram Alert
 on:
   issues:
     types: [opened]
+  workflow_dispatch:
 
 jobs:
   telegram:
-    if: |
-      github.event.issue.user.login == 'mrGhostage' &&
-      contains(github.event.issue.labels.*.name, 'status') &&
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
       (
+        github.event_name == 'issues' &&
+        github.event.issue.user.login == 'mrGhostage' &&
+        contains(github.event.issue.labels.*.name, 'status') &&
         (
-          github.event.issue.title == '🛑 Guessr Front is down' &&
-          contains(github.event.issue.labels.*.name, 'guessr-front')
-        ) ||
-        (
-          github.event.issue.title == '🛑 Guessr API (prod) is down' &&
-          contains(github.event.issue.labels.*.name, 'guessr-api-prod')
+          (
+            github.event.issue.title == '🛑 Guessr Front is down' &&
+            contains(github.event.issue.labels.*.name, 'guessr-front')
+          ) ||
+          (
+            github.event.issue.title == '🛑 Guessr API (prod) is down' &&
+            contains(github.event.issue.labels.*.name, 'guessr-api-prod')
+          )
         )
       )
+
     runs-on: ubuntu-latest
 
     steps:
@@ -26,12 +32,14 @@ jobs:
         env:
           BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          ISSUE_TITLE: ${{ github.event.issue.title }}
-          ISSUE_URL: ${{ github.event.issue.html_url }}
+          ISSUE_TITLE: ${{ github.event.issue.title || '🧪 Telegram monitoring test' }}
+          ISSUE_URL: ${{ github.event.issue.html_url || github.server_url }}
+
         run: |
-          curl -s -X POST "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage" \
+          curl --fail-with-body --silent --show-error \
+            -X POST "https://api.telegram.org/bot${BOT_TOKEN}/sendMessage" \
             -d chat_id="${CHAT_ID}" \
-            --data-urlencode text="🚨 Guessr.place alert
+            --data-urlencode "text=🚨 Guessr.place alert
 
           ${ISSUE_TITLE}
 
